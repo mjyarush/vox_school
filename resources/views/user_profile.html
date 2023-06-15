@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b1d3c67516.js" crossorigin="anonymous"></script>
+    <title>Мой кабинет</title>
+</head>
+<body>
+
+<div class="container-fluid text-main">
+    <div class="row">
+        <div class="col-lg-3 shadow">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="navbar-brand py-5 pl-3" href="index.html">
+                    <img src="img/VOX.png" height="40" alt="">
+                </a>
+                <a class="nav-link active d-flex " id="v-pills-courses-tab" data-toggle="pill" href="#v-pills-courses" role="tab" aria-controls="v-pills-courses" aria-selected="true">
+                    <span class="fa-solid fa-list pt-1 mr-2 icon-alt"></span> <span class="h6 pt-1 font-weight-bold">Список курсов</span>
+                </a>
+                <a class="nav-link" id="v-pills-mycourses-tab" data-toggle="pill" href="#v-pills-mycourses" role="tab" aria-controls="v-pills-mycourses" aria-selected="false">
+                    <span class="fa-solid fa-star pt-1 mr-1 icon-alt"></span> <span class="h6 font-weight-bold pt-1">Мои курсы</span>
+                </a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    <span class="fa-solid fa-user pt-1 mr-2 icon-alt"></span> <span class="h6 font-weight-bold pt-1">Мой профиль</span>
+                </a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-achievement" role="tab" aria-controls="v-pills-achievement" aria-selected="false">
+                    <span class="fa-solid fa-trophy pt-1 mr-1 icon-alt"></span> <span class="h6 font-weight-bold pt-1">Достижения</span>
+                </a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-certificate" role="tab" aria-controls="v-pills-certificate" aria-selected="false">
+                    <span class="fa-solid fa-certificate pt-1 mr-2 icon-alt"></span> <span class="h6 font-weight-bold pt-1">Сертификаты</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="row p-0 justify-content-between bg-main">
+                <div class="col-lg-2 py-3 px-5 d-flex justify-content-between">
+                    <a href="" class="link p-3 btn-cab">
+                        <span class="fa-solid fa-envelope fa-xl icon-pink"></span>
+                    </a>
+                    <a href="" class="link p-3 ml-3 btn-cab">
+                        <span class="fa-solid fa-bell fa-xl icon-pink "></span>
+                    </a>
+                    <!--                    <a href="" class="link p-3 ml-3 btn-cab">-->
+                    <!--                        <span class="fa-solid fa-envelope fa-xl icon-alt"></span>-->
+                    <!--                    </a>-->
+                </div>
+                <div class="col-lg-8 d-flex justify-content-center">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Поиск..." aria-label="Search">
+                        <button class="btn btn-highlight my-2 my-sm-0" type="submit">Найти</button>
+                    </form>
+                </div>
+                <div class="col-lg-2 py-3 d-flex b">
+                    <a data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" class="link d-flex">
+                        <span class="p-3 ml-3 btn-cab ">
+                            <span class="fa-solid fa-user fa-xl icon-pink "></span>
+                        </span>
+                        <span class="text-white my-auto ml-2">Иван Иванов</span>
+                    </a>
+                </div>
+            </div>
+            <div class="px-5 mt-5">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane show active fade" id="v-pills-courses" role="tabpanel" aria-labelledby="v-pills-courses-tab">
+                        <h2 class="font-weight-bold">Список курсов</h2>
+                        <div class="row my-5 px-2 justify-content-center">
+                            <div class="col-lg-5 mt-3 mx-3 p-5 shadow card">
+                                <a href="course-page.html" class="">
+                                    <div class="row">
+                                        <div class="col-lg-8 text-main pt-5">
+                                            <span class="h4">Что такое звук?</span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <img src="img/Volume.png" alt="" class="" width="100">
+                                        </div>
+                                    </div>
+
+                                    <div class="text-muted d-flex mt-4">
+                                        <span>
+                                            <span class="fa-solid fa-person-chalkboard pt-1 mr-1 icon-alt"></span> 5 уроков
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-user pt-1 mr-1 icon-alt"></span> 150 студентов
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-copyright pt-1 mr-1 icon-alt"></span> Алексей Ширяев
+                                        </span>
+                                    </div>
+                                    <p class="mt-2">В данном курсе вы изучите физику звука, а также методы работы с ним</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 mt-3 mx-3 p-5 shadow card">
+                                <a href="#" class="">
+                                    <div class="row">
+                                        <div class="col-lg-8 text-main pt-5">
+                                            <span class="h4">Основы в Reaper</span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <img src="img/reaper.png" alt="" class="" width="100">
+                                        </div>
+                                    </div>
+
+                                    <div class="text-muted d-flex mt-4">
+                                        <span>
+                                            <span class="fa-solid fa-person-chalkboard pt-1 mr-1 icon-alt"></span> 10 уроков
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-user pt-1 mr-1 icon-alt"></span> 230 студентов
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-copyright pt-1 mr-1 icon-alt"></span> Алексей Ширяев
+                                        </span>
+                                    </div>
+                                    <p class="mt-2">В данном курсе вы изучите основы работы в программном продукте Reaper</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 mt-3 mx-3 p-5 shadow card">
+                                <a href="#" class="">
+                                    <div class="row">
+                                        <div class="col-lg-8 text-main pt-5">
+                                            <span class="h4">Озвучивание</span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <img src="img/Voice.png" alt="" class="" width="100">
+                                        </div>
+                                    </div>
+
+                                    <div class="text-muted d-flex mt-4">
+                                        <span>
+                                            <span class="fa-solid fa-person-chalkboard pt-1 mr-1 icon-alt"></span> 8 уроков
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-user pt-1 mr-1 icon-alt"></span> 195 студентов
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-copyright pt-1 mr-1 icon-alt"></span> Алексей Ширяев
+                                        </span>
+                                    </div>
+                                    <p class="mt-2">В данном курсе вы изучите основы озвучивания сцен в мультфильмах и кино, а также создание атмосферы кадра</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 mt-3 mx-3 p-5 shadow card">
+                                <a href="#" class="">
+                                    <div class="row">
+                                        <div class="col-lg-8 text-main pt-5">
+                                            <span class="h4">Сведение музыки</span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <img src="img/song.png" alt="" class="" width="100">
+                                        </div>
+                                    </div>
+
+                                    <div class="text-muted d-flex mt-4">
+                                        <span>
+                                            <span class="fa-solid fa-person-chalkboard pt-1 mr-1 icon-alt"></span> 12 уроков
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-user pt-1 mr-1 icon-alt"></span> 280 студентов
+                                        </span>
+                                        <span class="ml-3">
+                                            <span class="fa-solid fa-copyright pt-1 mr-1 icon-alt"></span> Алексей Ширяев
+                                        </span>
+                                    </div>
+                                    <p class="mt-2">В данном курсе вы научитесь создавать музыкальные композиции и добиваться качественного звучания</p>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-mycourses" role="tabpanel" aria-labelledby="v-pills-mycourses-tab">
+                        <h2 class="font-weight-bold">Мои курсы</h2>
+                        <div class="row my-5 px-2">
+                            <div class="col-lg-10 mt-2 mx-2 p-5 shadow card">
+                                <div class="row">
+                                    <div class="col-lg-8 text-main ">
+                                        <span class="h4">Что такое звук?</span>
+                                        <div class="text-muted d-flex mt-4">
+                                            <span>
+                                                <span class="fa-solid fa-person-chalkboard pt-1 mr-1 icon-alt"></span> 5 уроков
+                                            </span>
+                                            <span class="ml-3">
+                                                <span class="fa-solid fa-user pt-1 mr-1 icon-alt"></span> 150 студентов
+                                            </span>
+                                            <span class="ml-3">
+                                                <span class="fa-solid fa-copyright pt-1 mr-1 icon-alt"></span> Алексей Ширяев
+                                            </span>
+                                        </div>
+                                        <p class="mt-2">В данном курсе вы изучите физику звука, а также методы работы с ним</p>
+                                        <div class="d-flex">
+                                            <a href="course-page.html" class="btn btn-alternative mt-2"> Открыть курс </a>
+                                            <span class="mt-3 ml-3">
+                                                <span class="fa-solid fa-person-chalkboard fa-lg pt-1 mr-1 text-success"></span> 3/5 прогресс
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="img/Volume.png" alt="" class="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <h2 class="font-weight-bold">Мой профиль</h2>
+                        <div class="container">
+                            <div class="row d-flex justify-content-center mt-100">
+                                <div class="col-md-6">
+                                    <div class="progress blue">
+                  <span class="progress-left">
+                      <span class="progress-bar"></span>
+                  </span>
+                                        <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                                        <div class="progress-value">90%</div>
+                                    </div>
+                                    <div class="progress yellow">
+                  <span class="progress-left">
+                    <span class="progress-bar"></span>
+                  </span>
+                                        <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                                        <div class="progress-value">37.5%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-achievement" role="tabpanel" aria-labelledby="v-pills-achievement-tab">
+                        <h2 class="font-weight-bold">Достижения</h2>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-certificate" role="tabpanel" aria-labelledby="v-pills-certificate-tab">
+                        <h2 class="font-weight-bold">Сертификаты</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 py-5">
+                    <img src="img/vox-white.png" class="logo" alt="VOX" width="100px">
+                    <p class="font-size-xxs text-white mt-3">
+                        <span class="font-weight-bold mr-1">ИП Ширяев Алексей Владимирович</span><br>
+                        <span class="font-weight-bold mr-1">ОГРНИП</span> 315618300003871<br>
+                        <span class="font-weight-bold mr-1">Юр.адрес:</span> ул. Малюгиной д. 276, оф. 11<br>
+                        <span class="font-weight-bold mr-1">Адрес школы:</span> ул. Города Волос, д. 137<br>
+                        Ростов-на-Дону, Ростовская область 344000, Россия<br>
+                    </p>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row justify-content-end py-5">
+                        <div class="col-lg-3 col-md-6 col-12 text-white">
+                            <div class="h6 text-uppercase">О нас</div>
+                            <ul class="list-unstyled">
+                                <li><a href="" class="footer-link-alternative font-size-xs">Главная</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Процесс обучения</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Instagram</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Вконтакте</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 text-white">
+                            <div class="h6 text-uppercase">Курсы</div>
+                            <ul class="list-unstyled">
+                                <li><a href="" class="footer-link-alternative font-size-xs">Список</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Сертификаты</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Оплата</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 text-white ">
+                            <div class="h6 text-uppercase">Мы в медиа</div>
+                            <ul class="list-unstyled">
+                                <li><a href="" class="footer-link-alternative font-size-xs">Telegram</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">WhatsApp</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Instagram</a></li>
+                                <li><a href="" class="footer-link-alternative font-size-xs">Вконтакте</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="row justufy-content-between py-3 text-white ">
+                <div class="col-sm-6 col-12">
+                    <div class="copyright font-size-xs mb-1">© 2023 VoxSchool - курсы звукорежиссуры</div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class=" font-size-xs text-left text-md-right">Разработка и дизайн mjyarush</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
